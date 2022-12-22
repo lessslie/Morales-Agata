@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2? family= Karla:ital,wght@0,400;0,500;1,300 & display=swap');
+
+/**
+paleta de colores
+#863A6F
+#975C8D
+#D989B5
+#FFADBC
+
+
+background-color:#FA92C4;
+#c692fa
+#975C8D
+tipografia
+familia tipográfica:font-family: 'Karla', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+
+    background:#d9a7c7; 
+    height: 120px;
+    align-items: center;
+}
+.navBar{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content:end   
+}
+.navBar li{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color:#863A6F;
+    font-size: 20px;
+    font-family:'Karla',sans-serif;
+    padding: 5px;
+}
+
+.navBar li a:hover{
+    background-color:#cba2f389;
+    border-radius: 50%;
+}
+.navBar li a:active { color: rgb(238, 243, 238); }
+
+main{
+    background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.banner img{
+    height: 200px;
+}
+.redondo img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+.redondo{
+    text-align: center;
+    padding-top: 50px;
+}
+.titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.img-contacto{
+    width: 100%;
+text-align: center;
+}
+form{
+    text-align: center;
+    padding: 25px;
+}
+.compra{
+    width: 50px;
+}
+p{
+font-size: 1.3rem;
+padding: 3px;
+}
+
+section{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+section img{
+    width: 250px;
+}
+.novedades img{
+    width: 20px;
+}
+.novedades h3{
+    font-size: 1.5rem;
+}
+.novedades p{
+    font-size: 1.3rem;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:#c692fa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+footer img{
+    width:69px; 
+    height:69px;
+}
+footer{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+}
+footer:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+
+
+
+@media(max-width:768px){
+/**este codigo solo se aplicara cuando llegue a esa medida**/ 
+.navBar{
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+}
+
+@media(max-width:320px){
+    /**este codigo solo se aplicara cuando llegue a esa medida**/ 
+img{
+    width: 100%;
+}
+
+}
