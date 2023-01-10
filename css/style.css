@@ -29,12 +29,12 @@ header{
     height: 120px;
     align-items: center;
 }
-.navBar{
+/* .navBar{
     display: flex;
     height: 60px;
     align-items: center;
     justify-content:end   
-}
+} */
 .navBar li{
     list-style: none;
 }
@@ -68,14 +68,13 @@ main{
     height: 350px;
     border-radius: 100%;
 }
-.redondo{
+.redondo {
     text-align: center;
-    padding-top: 50px;
+    padding: 50px;
 }
 .titulo{
     font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 15px;
+    
 }
 .img-contacto{
     width: 100%;
@@ -103,10 +102,16 @@ section{
 section img{
     width: 250px;
 }
+
+.novedades{
+    align-items: center;
+    justify-content: center;
+}
 .novedades img{
     width: 20px;
 }
 .novedades h3{
+    
     font-size: 1.5rem;
 }
 .novedades p{
@@ -138,6 +143,16 @@ footer:hover, a:focus {
     background-size: 100% 2px;
 }
 
+
+   
+    @media screen and (min-width: 600px) {
+        .nav-item.dropdown{
+            display:none;
+        }
+        .navbar-brand{
+            justify-content: center;
+        }
+    }
 
 
 
