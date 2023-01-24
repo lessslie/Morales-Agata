@@ -1,176 +1,84 @@
-@import url('https://fonts.googleapis.com/css2? family= Karla:ital,wght@0,400;0,500;1,300 & display=swap');
-
-/**
-paleta de colores
-#863A6F
-#975C8D
-#D989B5
-#FFADBC
-
-
-background-color:#FA92C4;
-#c692fa
-#975C8D
-tipografia
-familia tipográfica:font-family: 'Karla', sans-serif;
-
-*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,300&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
 }
 
-header{
-
-    background:#d9a7c7; 
-    height: 120px;
-    align-items: center;
+a {
+  text-decoration: none;
 }
-/* .navBar{
-    display: flex;
-    height: 60px;
-    align-items: center;
-    justify-content:end   
-} */
-.navBar li{
-    list-style: none;
+header {
+  background: #d9a7c7;
+  height: 120px;
+  align-items: center;
 }
-.navBar li a{
-    text-decoration: none;
-    color:#863A6F;
-    font-size: 20px;
-    font-family:'Karla',sans-serif;
-    padding: 5px;
+main {
+  background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
 }
-
-.navBar li a:hover{
-    background-color:#cba2f389;
-    border-radius: 50%;
+section {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
 }
-.navBar li a:active { color: rgb(238, 243, 238); }
-
-main{
-    background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+img{
+  width: 250px;
 }
-.banner{
-    width: 100%;
-    height: 300px;
-    text-align: center;
-}
-.banner img{
-    height: 200px;
-}
-.redondo img{
-    width: 350px;
-    height: 350px;
-    border-radius: 100%;
-}
-.redondo {
-    text-align: center;
-    padding: 50px;
-}
-.titulo{
-    font-size: 1.5rem;
-    
-}
-.img-contacto{
-    width: 100%;
-text-align: center;
-}
-form{
-    text-align: center;
-    padding: 25px;
+.container a img{
+  width: 15px;
 }
 .compra{
     width: 50px;
 }
-p{
-font-size: 1.3rem;
-padding: 3px;
+.banner {
+  width: 100%;
+  height: 300px;
+  text-align: center;
 }
 
-section{
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-around;
-}
-section img{
-    width: 250px;
+.banner img {
+  height: 200px;
 }
 
-.novedades{
-    align-items: center;
-    justify-content: center;
+.redondo {
+  text-align: center;
+  padding: 50px;
 }
-.novedades img{
-    width: 20px;
+.redondo img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
 }
-.novedades h3{
-    
-    font-size: 1.5rem;
+.img-contacto img{
+  width: 100%;
+  text-align: center;
 }
-.novedades p{
-    font-size: 1.3rem;
+.titulo {
+  font-size: 1.5rem;
 }
-
-footer{
-    width: 100%;
-    height: 100px;
-    background-color:#c692fa ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #c692fa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .5s;
 }
-footer img{
-    width:69px; 
-    height:69px;
-}
-footer{
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .5s;
-}
-footer:hover, a:focus {
-    background-size: 100% 2px;
+footer a img{
+  width: 69px;
+  height: 69px;
+  padding: 5px;
 }
 
-
-   
-    @media screen and (min-width: 600px) {
-        .nav-item.dropdown{
-            display:none;
-        }
-        .navbar-brand{
-            justify-content: center;
-        }
-    }
-
-
-
-@media(max-width:768px){
-/**este codigo solo se aplicara cuando llegue a esa medida**/ 
-.navBar{
-    flex-direction: column;
-    align-items: center;
-}
-img{
-    width: 100%;
-}
-}
-
-@media(max-width:320px){
-    /**este codigo solo se aplicara cuando llegue a esa medida**/ 
-img{
-    width: 100%;
-}
-
-}
+/*# sourceMappingURL=style.css.map */
